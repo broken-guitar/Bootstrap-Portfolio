@@ -10,18 +10,25 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
   <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
-
   <title>About | Your Name</title>
 </head>
 
 <body>
+
+
   <!-- -->
   <!-- outer container for full width -->
-  <div class="container-fluid">
+  <div class="container-fluid h-100 d-flex flex-column">
+
     <!-- outer header row -->
     <div class="row border-bottom">
+
+      <div class="col-sm-2"></div>
       <!-- inner container for header content -->
-      <div class="container-lg">
+      <!-- <div class="container-lg"> -->
+
+      <div class="col-sm-8">
+
         <div class="row align-items-center">
           <!-- name col -->
           <div class=" col-lg-4 col-md-4 align-self-center text-center d-inline text-nowrap bg-info p-4">
@@ -31,21 +38,32 @@
           </div>
           <!-- nav col -->
           <div class="col-lg-8 col-md-8 align-self-center text-center text-lg-left text-nowrap">
-            <nav class="nav justify-content-center justify-content-md-end text-nowrap">
-              <a class="nav-link active border-right" href="index.html">About<span class="sr-only">(current)</span></a>
-              <a class="nav-link border-right" href="portfolio.html">Portfolio</a>
-              <a class="nav-link" href="contact.html">Contact</a>
+            <nav class="nav justify-content-center justify-content-md-end text-nowrap h5">
+              <a class="nav-link active border-right text-black-50" href="index.html">About<span
+                  class="sr-only">(current)</span></a>
+              <a class="nav-link border-right text-black-50" href="portfolio.html">Portfolio</a>
+              <a class="nav-link text-black-50" href="contact.html">Contact</a>
             </nav>
           </div>
         </div>
-        <!-- main content row -->
       </div>
+
+      <div class="col-sm-2"></div>
+
     </div>
+
+
+
+
+
     <!-- outer row for main content -->
-    <div class="row border-top bg-light">
+    <div class="row border-top bg-light d-flex flex-grow-1">
+      <div class="col-sm-2"></div>
       <!-- inner container for main content -->
-      <div class="container-lg">
-        <div class="row mt-3">
+      <!-- <div class="container-lg"> -->
+
+      <div class="col-sm-8">
+        <div class="row align-items-center mt-3 mb-5">
           <div class="col-md-8 border bg-white">
             <h1 class="text-info border-bottom p-3">About Me</h1>
             <img src="http://placekitten.com/300/200" class="rounded float-left p-3" alt="David Flores" />
@@ -73,21 +91,32 @@
           </div>
         </div>
       </div>
+      <div class="col-sm-2"></div>
+
+      <!-- empty spacer row -->
+      <!-- <div class="row my-5 py-5"></div> -->
+
+      <!-- </div> -->
     </div>
 
-    <!-- footer row -->
-    <div class="row"></div>
 
 
+
+    <!-- outer row for footer -->
+    <div class="row border-top bg-dark">
+
+      <!-- inner container for footer -->
+      <!-- <div class="container-lg"> -->
+      <!-- <div class="row"> -->
+      <div class="col-12 align-self-center text-center p-4">
+        <span class="text-white p-5">&copy; Copyright</span>
+      </div>
+      <!-- </div> -->
+      <!-- </div> -->
+
+
+    </div>
   </div> <!-- end of outer container -->
-
-  <footer>
-    <div class="container">
-      Copyright &copy;
-    </div>
-  </footer>
-
-  <!-- end of container -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
   </script>
