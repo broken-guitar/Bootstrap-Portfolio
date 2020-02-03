@@ -18,26 +18,23 @@
 
   <!-- -->
   <!-- outer container for full width -->
-  <div class="container-fluid h-100 d-flex flex-column">
-
+  <div class="container-fluid vh-100 bg-light">
     <!-- outer header row -->
     <div class="row border-bottom">
 
-      <div class="col-sm-2"></div>
-      <!-- inner container for header content -->
-      <!-- <div class="container-lg"> -->
+      <div class="col w-100 mx-md-5">
 
-      <div class="col-sm-8">
+        <div class="row">
 
-        <div class="row align-items-center">
           <!-- name col -->
-          <div class=" col-lg-4 col-md-4 align-self-center text-center d-inline text-nowrap bg-info p-4">
+          <div class="col-md-auto align-self-center text-center text-nowrap bg-info p-4 mr-auto">
             <h1 class="text-white">
               <a class="text-white" href="index.html" id="logo">David Flores</a>
             </h1>
           </div>
+
           <!-- nav col -->
-          <div class="col-lg-8 col-md-8 align-self-center text-center text-lg-left text-nowrap">
+          <div class="col-lg-8 col-md-auto align-self-center text-right text-nowrap justify p-3">
             <nav class="nav justify-content-center justify-content-md-end text-nowrap h5">
               <a class="nav-link active border-right text-black-50" href="index.html">About<span
                   class="sr-only">(current)</span></a>
@@ -47,75 +44,54 @@
           </div>
         </div>
       </div>
-
-      <div class="col-sm-2"></div>
-
     </div>
 
+    <!-- row - main content -->
+    <div class="row border-top bg-light h-auto">
 
+      <!-- column/inner row combo to pad content within fluid container -->
+      <div class="col w-100 mx-md-5">
+        <div class="row align-items-center mt-4 mb-4">
 
-
-
-    <!-- outer row for main content -->
-    <div class="row border-top bg-light d-flex flex-grow-1">
-      <div class="col-sm-2"></div>
-      <!-- inner container for main content -->
-      <!-- <div class="container-lg"> -->
-
-      <div class="col-sm-8">
-        <div class="row align-items-center mt-3 mb-5">
           <div class="col-md-8 border bg-white">
+
             <h1 class="text-info border-bottom p-3">About Me</h1>
             <img src="http://placekitten.com/300/200" class="rounded float-left p-3" alt="David Flores" />
             <p class="p-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              vestibulum luctus felis, ac rhoncus nunc porttitor condimentum.
-              Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin
-              vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum
-              consectetur euismod. Proin commodo purus vitae sollicitudin
-              consectetur.
-            </p>
-
+              Macaroon topping danish wafer sugar plum jelly sugar plum carrot cake jelly. Cupcake tart chocolate cake
+              soufflé oat cake marzipan soufflé oat cake. Dragée gummi bears candy canes cookie. Fruitcake toffee sugar
+              plum gingerbread. Lollipop bonbon marzipan cotton candy donut. Sesame snaps jelly-o jujubes pudding candy
+              caramels cotton candy. Lollipop topping donut sesame snaps jujubes brownie. Biscuit muffin cake sesame
+              snaps cake marshmallow. Cake lemon drops apple pie icing dragée. </p>
             <p>
-              Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices,
-              ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar
-              quam eget, egestas mauris.
-            </p>
-
-            <p>
-              Suspendisse dictum, arcu at convallis faucibus, quam sapien
-              tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius
-              natoque penatibus et magnis dis parturient montes, nascetur
-              ridiculus mus.
-            </p>
+              Pie dessert tootsie roll fruitcake jelly-o soufflé soufflé. Jujubes topping cheesecake. Powder lollipop
+              dragée donut cake icing sweet roll donut tiramisu. Marzipan sweet cookie tootsie roll gummies toffee.
+              Biscuit candy canes chocolate sweet roll sesame snaps gummies tootsie roll candy canes liquorice. Candy
+              canes icing donut pastry cheesecake. Jelly beans caramels fruitcake gingerbread caramels bear claw. Toffee
+              biscuit gummi bears oat cake pudding gingerbread cake.</p>
+            <p>Marzipan halvah dragée sweet roll candy canes croissant tiramisu jujubes cookie. Marshmallow dessert
+              wafer marshmallow soufflé lollipop jelly wafer. Sugar plum muffin ice cream chocolate cake biscuit gummi
+              bears tootsie roll chocolate cake. Cheesecake sugar plum pastry. Muffin macaroon tiramisu carrot cake
+              toffee. Tootsie roll jelly-o wafer pudding marshmallow toffee icing sweet jujubes. Biscuit gummi bears
+              pudding chocolate oat cake ice cream topping. Toffee lollipop tiramisu. Caramels jelly-o cake marshmallow
+              wafer bear claw ice cream marzipan.</p>
           </div>
         </div>
       </div>
-      <div class="col-sm-2"></div>
-
-      <!-- empty spacer row -->
-      <!-- <div class="row my-5 py-5"></div> -->
-
-      <!-- </div> -->
     </div>
 
+    <!-- filler row to fix content hidden by fixed-bottom footer row-->
+    <div class="row h-25 bg-light"></div>
 
+    <!-- row - footer -->
+    <div class="row border-top bg-dark fixed-bottom">
 
-
-    <!-- outer row for footer -->
-    <div class="row border-top bg-dark">
-
-      <!-- inner container for footer -->
-      <!-- <div class="container-lg"> -->
-      <!-- <div class="row"> -->
-      <div class="col-12 align-self-center text-center p-4">
+      <div class="col align-self-center text-center p-4">
         <span class="text-white p-5">&copy; Copyright</span>
       </div>
-      <!-- </div> -->
-      <!-- </div> -->
-
 
     </div>
+  </div>
   </div> <!-- end of outer container -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
