@@ -2,67 +2,94 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio | Your Name</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+  <title>About | David Flores</title>
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <div class="container-fluid vh-100 bg-light">
+
+    <!-- header row -->
+    <div class="row border-bottom">
+
+      <div class="col w-100 mx-md-5">
+
+        <div class="row">
+
+          <!-- name col -->
+          <div class="col-md-auto align-self-center text-center text-nowrap bg-info p-4 mr-auto">
+            <h1 class="text-white">
+              <a class="text-white" href="index.html" id="logo">David Flores</a>
+            </h1>
+          </div>
+
+          <!-- nav col -->
+          <div class="col-lg-8 col-md-auto align-self-center text-right text-nowrap justify p-3">
+            <nav class="nav justify-content-center justify-content-md-end text-nowrap h5">
+              <a class="nav-link border-right text-black-50" href="index.html">About</a>
+              <a class="nav-link active border-right text-black-50" href="portfolio.html">Portfolio</a>
+              <a class="nav-link text-black-50" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+            </nav>
+          </div>
+        </div>
+      </div>
     </div>
-  </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
+    <!-- main content row -->
+    <div class="row border-top bg-light h-auto">
 
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+      <div class="col w-100 mx-3 mx-md-5">
 
-        <h3>Word Guess</h3>
+        <div class="row align-items-center mt-4 mb-4">
+
+          <div class="col-md-8 border bg-white">
+
+            <h1 class="text-info border-bottom py-3">Portfolio</h1>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-2">
+              <div class="col py-3"><img src="http://placekitten.com/250/200" class="" alt="kitten" /></div>
+              <div class="col py-3"><img src="http://placekitten.com/250/200" class="" alt="kitten" /></div>
+              <!-- <div class="w-100"></div> -->
+              <div class="col py-3"><img src="http://placekitten.com/250/200" class="" alt="kitten" /></div>
+              <div class="col py-3"><img src="http://placekitten.com/250/200" class="" alt="kitten" /></div>
+              <div class="col py-3"><img src="http://placekitten.com/250/200" class="" alt="kitten" /></div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+    </div>
 
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+    <!-- filler row (to fix content hidden by fixed-bottom footer row)-->
+    <div class="row h-25 bg-light"></div>
 
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+    <!-- footer row -->
+    <div class="row border-top bg-dark fixed-bottom">
 
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
+      <div class="col align-self-center text-center p-4">
+        <span class="text-white p-5">&copy; Copyright</span>
       </div>
 
-    </section>
-
+    </div>
   </div>
+  </div>
+  <!-- ^^^ end of container -->
 
-  <footer>
-    <div class="container">
-      Copyright &copy;
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
