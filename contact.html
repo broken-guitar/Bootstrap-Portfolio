@@ -2,59 +2,106 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Contact | Your Name</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+  <title>Contact | David Flores</title>
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <div class="container-fluid vh-100 bg-light">
+
+    <!-- header row -->
+    <div class="row border-bottom">
+
+      <div class="col w-100 mx-md-5">
+
+        <div class="row">
+
+          <!-- name col -->
+          <div class="col-md-auto align-self-center text-center text-nowrap bg-info p-4 mr-auto">
+            <h1 class="text-white">
+              <a class="text-white" href="index.html" id="logo">David Flores</a>
+            </h1>
+          </div>
+
+          <!-- nav col -->
+          <div class="col-lg-8 col-md-auto align-self-center text-right text-nowrap justify p-3">
+            <nav class="nav justify-content-center justify-content-md-end text-nowrap h5">
+              <a class="nav-link border-right text-black-50" href="index.html">About
+                <a class="nav-link border-right text-black-50" href="portfolio.html">Portfolio</a>
+                <a class="nav-link active text-black-50" href="contact.html">Contact
+                  <span class="sr-only">(current)</span></a></a>
+            </nav>
+          </div>
+        </div>
+      </div>
     </div>
-  </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Contact</h1>
+    <!-- main content row -->
+    <div class="row border-top bg-light h-auto">
 
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
+      <div class="col w-100 mx-md-5">
 
-    </section>
+        <div class="row align-items-center mt-4 mb-4">
 
+          <div class="col-md-8 border bg-white mx-3">
+
+            <h1 class="text-info border-bottom py-3">Contact</h1>
+
+            <!-- form group -->
+            <form>
+              <div class="form-group">
+                <label for="contactNameText1">Name</label>
+                <textarea class="form-control" id="contactNameText1" rows="1"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="contactEmailText1">Email address</label>
+                <input type="email" class="form-control" id="contactEmailText1" aria-describedby="emailHelp">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                  else.</small> -->
+              </div>
+              <div class="form-group">
+                <label for="contactMessageText1">Name</label>
+                <textarea class="form-control" id="contactMessageText1" rows="5"></textarea>
+              </div>
+              <button type="submit" class="btn btn-lg btn-info mb-3">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- filler row (to fix content hidden by fixed-bottom footer row)-->
+    <div class="row h-25 bg-light"></div>
+
+    <!-- footer row -->
+    <div class="row border-top bg-dark fixed-bottom">
+
+      <div class="col align-self-center text-center p-4">
+        <span class="text-white p-5">&copy; Copyright</span>
+      </div>
+
+    </div>
   </div>
+  </div>
+  <!-- ^^^ end of container -->
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
